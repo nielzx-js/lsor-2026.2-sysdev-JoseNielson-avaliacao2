@@ -105,9 +105,9 @@ Você é o responsável pela infraestrutura do **Hackathon IFAL**. O servidor do
 2.  Preencha a tabela abaixo com os valores da **sua** VM:
 
     | Interface | IP / prefixo | Endereço MAC | Gateway padrão |
-    | :--- | :--- | :--- | :--- |
-    | | | | |
-
+| :--- | :--- | :--- | :--- |
+| lo | 127.0.0.1/8 | 00:00:00:00:00:00 | — |
+| enp0s3 | 172.20.21.16/22 | 08:00:27:3c:6f:c3 | 172.20.20.1 |
 3.  Faça os testes de conectividade em camadas, do mais próximo ao mais distante:
     ```bash
     ping -c 4 127.0.0.1
@@ -119,7 +119,27 @@ Você é o responsável pela infraestrutura do **Hackathon IFAL**. O servidor do
 > **🖼️ PRINTS:** `q2_ip_addr.png` (saída de `ip addr show` e `ip route`) e `q2_ping.png` (os testes de `ping`).
 
 *   **Sua resposta:**
-    [Comandos, tabela preenchida, prints e interpretação. Se algum ping falhar, diga em qual camada está o problema.]
+    Primeiro, executei os comandos `ip addr show` e `ip route` para verificar as interfaces, os endereços IP e o gateway da VM. Depois, realizei os testes de conectividade conforme solicitado no enunciado.
+
+    Abaixo estão os resultados:
+
+| Interface | IP / prefixo | Endereço MAC | Gateway padrão |
+| :--- | :--- | :--- | :--- |
+| lo | 127.0.0.1/8 | 00:00:00:00:00:00 | — |
+| enp0s3 | 172.20.21.16/22 | 08:00:27:3c:6f:c3 | 172.20.20.1 |
+
+**Print dos comandos `ip addr show` e `ip route`:**
+
+![Questão 2](prints/q2_ip_addr.png)
+![Questão 2](prints/q2_ip_addr2.png)
+
+**Print dos testes de conectividade:**
+
+![Questão 2](prints/q2_ping.png)
+
+O primeiro teste, com `127.0.0.1`, funcionou normalmente. O segundo, com `10.0.2.2`, apresentou 100% de perda de pacotes. Já os testes com `8.8.8.8` e `google.com` funcionaram normalmente.
+
+Concluo que a VM possui acesso à internet e que o DNS está funcionando, apesar de o gateway não ter respondido ao teste de ping.
 
 ---
 
