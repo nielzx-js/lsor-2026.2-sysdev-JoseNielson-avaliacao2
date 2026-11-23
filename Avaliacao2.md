@@ -294,7 +294,9 @@ Concluo que a VM possui acesso à internet e que o DNS está funcionando, apesar
 > **🖼️ PRINTS:** `q8_inscricao.png` (a ficha do **seu** usuário com `cat` e `pwd`) e `q8_su_x_su_hifen.png` (os dois `pwd` diferentes).
 
 *   **Sua resposta:**
-    [Comandos, prints e interpretação. Diga em uma frase por que os dois `pwd` deram resultados diferentes.]
+   O comando su ana troca o usuário, mas mantém o diretório atual. Já su - ana troca o usuário e também carrega o ambiente de login, direcionando para a pasta pessoal do usuário.
+
+    Por isso, os dois comandos pwd apresentam caminhos diferentes.
 
 ---
 
