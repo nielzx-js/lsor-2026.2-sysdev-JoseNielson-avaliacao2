@@ -90,6 +90,8 @@ Você é o responsável pela infraestrutura do **Hackathon IFAL**. O servidor do
 *   **Sua resposta:**
     Primeiro eu acessei a pasta que o professor disse anteriormente, depois, copiei e colei o arquivo de acordo com a estrutura anterior (a iso dentro de original, por exemplo.) Então, configurei conforme o enunciado.
     ![Questão 1](prints/q1_vm_importada.png.png)
+    ![Questão 1](prints/q1_vm_logada.png)
+    
 
 ---
 
