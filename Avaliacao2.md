@@ -10,7 +10,7 @@
 *   **Nome Completo:** José Nielson Silva Barbosa
 *   **Matrícula:** 2024331577
 *   **Seu usuário na VM (Questão 4):** joaosilva
-*   **Link do seu Repositório no GitHub:** [[Preencha aqui o link](https://github.com/nielzx-js/lsor-2026.2-sysdev-JoseNielson-avaliacao2)]
+*   **Link do seu Repositório no GitHub:** [(https://github.com/nielzx-js/lsor-2026.2-sysdev-JoseNielson-avaliacao2]
 *   **Data de Realização:** 23/11/2026
 
 ---
