@@ -88,7 +88,8 @@ Você é o responsável pela infraestrutura do **Hackathon IFAL**. O servidor do
 > **🖼️ PRINTS:** `q1_vm_importada.png` mostrando a janela do VirtualBox com a VM `avaliacao2-<seunome>` (memória e CPU à vista) e o console da VM com o login feito.
 
 *   **Sua resposta:**
-    [Substitua este texto pelos passos realizados, os prints e a sua frase de interpretação]
+    Primeiro eu acessei a pasta que o professor disse anteriormente, depois, copiei e colei o arquivo de acordo com a estrutura anterior (a iso dentro de original, por exemplo.) Então, configurei conforme o enunciado.
+    ![Questão 1](prints/q1_vm_importada.png.png)
 
 ---
 
