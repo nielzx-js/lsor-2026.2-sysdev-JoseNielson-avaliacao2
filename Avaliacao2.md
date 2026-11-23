@@ -187,7 +187,7 @@ Concluo que a VM possui acesso à internet e que o DNS está funcionando, apesar
 > **🖼️ PRINTS:** `q4_adduser.png` (criação do **seu** usuário) e `q4_usuarios.png` (saída do `tail`).
 
 *   **Sua resposta:**
-    
+    gi
 
 ---
 
